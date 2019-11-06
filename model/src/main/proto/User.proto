@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package com.test.jdh.bank;
+
+//option java_multiple_file=true;
+
+
+enum TransactionStatus{
+
+}
+
+enum NotificationType{
+
+}
+
+
+message TransferMoney{
+
+}
+
+message TransferConfirmation{
+
+}
+
+message RequestMoney{
+
+}
+
+message Accout{
+
+}
+
+message AccountNotification{
+
+}
+
+
+service Bank{
+
+}
